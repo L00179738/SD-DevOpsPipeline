@@ -9,6 +9,7 @@ phases:
       - npm install
   build:
     commands:
+      - npm run test:unit
       - npm run build
 
 artifacts:
